@@ -39,17 +39,22 @@ si lo quiere quieres algo más simple y menos complicado de solo html, css y js.
 `npm i -D babel-loader babel-core babel-preset-env` || -D dependencias de desarrollo
 crea una archivo .babelrc ( colocar presets)
 
+```javascript
   "build-babel": "webpack --mode production --module-bind js=babel-loader",
   "dev-babel": "webpack --mode development --module-bind js=babel-loader"
+```
 
 ## desinstalar babel
 `npm un -D babel-loader babel-core babel-preset-env`
 
 ## instalar babel 2
 **(esto por si la version de webpack no soporta el babel actualizado)**
-`npm i -D babel-core@6.26.3`
-`npm i -D babel-loader@7.1.5`
-`npm i -D babel-preset-env@1.7.0`
+
+```javascript
+npm i -D babel-core@6.26.3
+npm i -D babel-loader@7.1.5
+npm i -D babel-preset-env@1.7.0
+```
 
 ## instalar dependencias de html-plugin
 `npm i -D html-webpack-plugin html-loader`
@@ -90,6 +95,8 @@ configurar en package.json || `"start": "webpack-dev-server --mode development -
 `npm i -D autoprefixer clean-webpack-plugin css-loader file-loader image-webpack-loader mini-css-extract-plugin node-sass postcss-loader resolve-url-loader sass-loader style-loader`
 
 
+*Estas dependencias de react, vue y ts son opcionales si el que deseas trabajar con ellas. igual tienes que agregarlas en las opciones de **webpack.config.js** .*
+
 ## DEPENCIAS DE DESARROLLO PARA REACT VUE
 
 ```javascript
@@ -102,5 +109,8 @@ npm i -D vue-template-compiler
 ```
 
 ## DEPENDECIA VUE REACT
-`npm install vue`
-`npm install react react-dom`
+
+```javascript
+npm install vue
+npm install react react-dom
+```
