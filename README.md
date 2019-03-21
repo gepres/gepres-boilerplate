@@ -1,4 +1,4 @@
-# Preferente es realizar haciendo una clonación del repositorio
+# Preferente es realizar una clonación del repositorio
 
 # Instación paso a paso
 ## instalar webpack
