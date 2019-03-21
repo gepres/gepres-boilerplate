@@ -1,21 +1,21 @@
-# Preferente es realizar haciendo un clonación de repositorio
+# Preferente es realizar haciendo una clonación del repositorio
 
-# instación paso a paso
+# Instación paso a paso
 ## instalar webpack
   `npm install webpack webpack-cli -g`
   terminal
     `npm init`
   `npm install webpack webpack-cli -D`
 
- crear la carpeta src con el arcivo index.js
+ crear la carpeta src con el archivo index.js
 
 
 ## si quiere cambiar el lugar de origen de las carpetas
 
-"build": "webpack --mode production",
-"dev": "webpack --mode development",
-"build2": "webpack --mode production ./prueba/dev/main.js --output ./prueba/public/script.js",
-"dev2": "webpack --mode development ./prueba/dev/main.js --output ./prueba/public/script.js"
+`"build": "webpack --mode production",`
+`"dev": "webpack --mode development",`
+`"build2": "webpack --mode production ./prueba/dev/main.js --output ./prueba/public/script.js",`
+`"dev2": "webpack --mode development ./prueba/dev/main.js --output ./prueba/public/script.js"`
 
 ## instalar babel
 `npm i -D babel-loader babel-core babel-preset-env` || -D dependencias de desarrollo
