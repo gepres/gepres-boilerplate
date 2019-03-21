@@ -63,16 +63,27 @@ configurar en package.json || `"start": "webpack-dev-server --mode development -
 
 ## el resto de las dependencias
 **puede a ver problemas con las versiones de las dependencias, asi si una falla instalar la version del repositorio**
+
 `npm i -D autoprefixer` ||
+
 `clean-webpack-plugin` || correr una ejecucion en produccion puede limpiar la caperta de publicacion
+
 `css-loader` || cargar las ojas de estilo
+
 `file-loader` || si necesito un archivo tipo grafico
+
 `image-webpack-loader` || cargar y optimar imagenes
+
 `mini-css-extract-plugin` || sacar el codigo js los estilos css y llavarlo por una etiqueta link
+
 `node-sass` ||
+
 `postcss-loader` || autoprexiser
+
 `resolve-url-loader` || louder de transformar de una manera correcta las url
+
 `sass-loader` || transformar el codigo
+
 `style-loader` || estilos en linea
 
 
@@ -80,12 +91,15 @@ configurar en package.json || `"start": "webpack-dev-server --mode development -
 
 
 ## DEPENCIAS DE DESARROLLO PARA REACT VUE
-`npm i -D babel-preset-react`
-`npm i -D ts-loader`
-`npm i -D typescript`
-`npm i -D vue-loader`
-`npm i -D vue-style-loader`
-`npm i -D vue-template-compiler`
+
+```javascript
+npm i -D babel-preset-react
+npm i -D ts-loader
+npm i -D typescript
+npm i -D vue-loader
+npm i -D vue-style-loader
+npm i -D vue-template-compiler
+```
 
 ## DEPENDECIA VUE REACT
 `npm install vue`
