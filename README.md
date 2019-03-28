@@ -95,9 +95,9 @@ configurar en package.json || `"start": "webpack-dev-server --mode development -
 `npm i -D autoprefixer clean-webpack-plugin css-loader file-loader image-webpack-loader mini-css-extract-plugin node-sass postcss-loader resolve-url-loader sass-loader style-loader`
 
 
-*Estas dependencias de react, vue y ts son opcionales si el que deseas trabajar con ellas. igual tienes que agregarlas en las opciones de **webpack.config.js** .*
-
 ## DEPENCIAS DE DESARROLLO PARA REACT VUE
+
+*Estas dependencias de react, vue y ts son opcionales si el que deseas trabajar con ellas. igual tienes que agregarlas en las opciones de **webpack.config.js** .*
 
 ```javascript
 npm i -D babel-preset-react
